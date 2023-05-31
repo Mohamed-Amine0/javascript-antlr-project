@@ -3,7 +3,7 @@
 import antlr4 from 'antlr4';
 
 const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
-    "\u5964\u0003\u001a\u0087\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004",
+    "\u5964\u0003\u001c\u0091\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004",
     "\u0004\t\u0004\u0004\u0005\t\u0005\u0004\u0006\t\u0006\u0003\u0002\u0003",
     "\u0002\u0003\u0002\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003",
     "\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0007\u0003\u0019",
@@ -23,68 +23,78 @@ const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
     "\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005",
     "\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005",
     "\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005",
-    "\u0003\u0005\u0003\u0005\u0003\u0005\u0005\u0005}\n\u0005\u0003\u0006",
-    "\u0003\u0006\u0003\u0006\u0007\u0006\u0082\n\u0006\f\u0006\u000e\u0006",
-    "\u0085\u000b\u0006\u0003\u0006\u0002\u0003\u0004\u0007\u0002\u0004\u0006",
-    "\b\n\u0002\u0004\u0003\u0002\u0003\u0004\u0003\u0002\u0005\u0006\u0002",
-    "\u0094\u0002\f\u0003\u0002\u0002\u0002\u0004\u000f\u0003\u0002\u0002",
-    "\u0002\u0006$\u0003\u0002\u0002\u0002\b|\u0003\u0002\u0002\u0002\n~",
-    "\u0003\u0002\u0002\u0002\f\r\u0005\u0004\u0003\u0002\r\u000e\u0007\u0002",
-    "\u0002\u0003\u000e\u0003\u0003\u0002\u0002\u0002\u000f\u0010\b\u0003",
-    "\u0001\u0002\u0010\u0011\u0005\u0006\u0004\u0002\u0011\u001a\u0003\u0002",
-    "\u0002\u0002\u0012\u0013\f\u0004\u0002\u0002\u0013\u0014\t\u0002\u0002",
-    "\u0002\u0014\u0019\u0005\u0004\u0003\u0005\u0015\u0016\f\u0003\u0002",
-    "\u0002\u0016\u0017\t\u0003\u0002\u0002\u0017\u0019\u0005\u0004\u0003",
-    "\u0004\u0018\u0012\u0003\u0002\u0002\u0002\u0018\u0015\u0003\u0002\u0002",
-    "\u0002\u0019\u001c\u0003\u0002\u0002\u0002\u001a\u0018\u0003\u0002\u0002",
-    "\u0002\u001a\u001b\u0003\u0002\u0002\u0002\u001b\u0005\u0003\u0002\u0002",
-    "\u0002\u001c\u001a\u0003\u0002\u0002\u0002\u001d%\u0007\u0018\u0002",
-    "\u0002\u001e%\u0007\u0019\u0002\u0002\u001f%\u0005\b\u0005\u0002 !\u0007",
-    "\u0007\u0002\u0002!\"\u0005\u0004\u0003\u0002\"#\u0007\b\u0002\u0002",
-    "#%\u0003\u0002\u0002\u0002$\u001d\u0003\u0002\u0002\u0002$\u001e\u0003",
-    "\u0002\u0002\u0002$\u001f\u0003\u0002\u0002\u0002$ \u0003\u0002\u0002",
-    "\u0002%\u0007\u0003\u0002\u0002\u0002&\'\u0007\n\u0002\u0002\'(\u0007",
-    "\u0007\u0002\u0002()\u0005\u0004\u0003\u0002)*\u0007\b\u0002\u0002*",
-    "}\u0003\u0002\u0002\u0002+,\u0007\u000b\u0002\u0002,-\u0007\u0007\u0002",
-    "\u0002-.\u0005\n\u0006\u0002./\u0007\b\u0002\u0002/}\u0003\u0002\u0002",
-    "\u000201\u0007\f\u0002\u000212\u0007\u0007\u0002\u000223\u0005\n\u0006",
-    "\u000234\u0007\b\u0002\u00024}\u0003\u0002\u0002\u000256\u0007\r\u0002",
-    "\u000267\u0007\u0007\u0002\u000278\u0005\u0004\u0003\u000289\u0007\t",
-    "\u0002\u00029:\u0005\u0004\u0003\u0002:;\u0007\t\u0002\u0002;<\u0005",
-    "\u0004\u0003\u0002<=\u0007\b\u0002\u0002=}\u0003\u0002\u0002\u0002>",
-    "?\u0007\u000e\u0002\u0002?@\u0007\u0007\u0002\u0002@A\u0005\n\u0006",
-    "\u0002AB\u0007\b\u0002\u0002B}\u0003\u0002\u0002\u0002CD\u0007\u000f",
-    "\u0002\u0002DE\u0007\u0007\u0002\u0002EF\u0005\n\u0006\u0002FG\u0007",
-    "\b\u0002\u0002G}\u0003\u0002\u0002\u0002HI\u0007\u0010\u0002\u0002I",
-    "J\u0007\u0007\u0002\u0002JK\u0005\n\u0006\u0002KL\u0007\b\u0002\u0002",
-    "L}\u0003\u0002\u0002\u0002MN\u0007\u0011\u0002\u0002NO\u0007\u0007\u0002",
-    "\u0002OP\u0005\u0004\u0003\u0002PQ\u0007\t\u0002\u0002QR\u0005\u0004",
-    "\u0003\u0002RS\u0007\t\u0002\u0002ST\u0005\u0004\u0003\u0002TU\u0007",
-    "\t\u0002\u0002UV\u0005\u0004\u0003\u0002VW\u0007\b\u0002\u0002W}\u0003",
-    "\u0002\u0002\u0002XY\u0007\u0012\u0002\u0002YZ\u0007\u0007\u0002\u0002",
-    "Z[\u0005\u0004\u0003\u0002[\\\u0007\t\u0002\u0002\\]\u0005\u0004\u0003",
-    "\u0002]^\u0007\t\u0002\u0002^_\u0005\u0004\u0003\u0002_`\u0007\b\u0002",
-    "\u0002`}\u0003\u0002\u0002\u0002ab\u0007\u0013\u0002\u0002bc\u0007\u0007",
-    "\u0002\u0002cd\u0005\u0004\u0003\u0002de\u0007\t\u0002\u0002ef\u0005",
-    "\u0004\u0003\u0002fg\u0007\t\u0002\u0002gh\u0005\u0004\u0003\u0002h",
-    "i\u0007\b\u0002\u0002i}\u0003\u0002\u0002\u0002jk\u0007\u0014\u0002",
-    "\u0002kl\u0007\u0007\u0002\u0002lm\u0005\n\u0006\u0002mn\u0007\b\u0002",
-    "\u0002n}\u0003\u0002\u0002\u0002op\u0007\u0015\u0002\u0002pq\u0007\u0007",
-    "\u0002\u0002qr\u0005\u0004\u0003\u0002rs\u0007\t\u0002\u0002st\u0005",
-    "\u0004\u0003\u0002tu\u0007\b\u0002\u0002u}\u0003\u0002\u0002\u0002v",
-    "w\u0007\u0016\u0002\u0002wx\u0007\u0007\u0002\u0002x}\u0007\b\u0002",
-    "\u0002yz\u0007\u0017\u0002\u0002z{\u0007\u0007\u0002\u0002{}\u0007\b",
-    "\u0002\u0002|&\u0003\u0002\u0002\u0002|+\u0003\u0002\u0002\u0002|0\u0003",
-    "\u0002\u0002\u0002|5\u0003\u0002\u0002\u0002|>\u0003\u0002\u0002\u0002",
-    "|C\u0003\u0002\u0002\u0002|H\u0003\u0002\u0002\u0002|M\u0003\u0002\u0002",
-    "\u0002|X\u0003\u0002\u0002\u0002|a\u0003\u0002\u0002\u0002|j\u0003\u0002",
-    "\u0002\u0002|o\u0003\u0002\u0002\u0002|v\u0003\u0002\u0002\u0002|y\u0003",
-    "\u0002\u0002\u0002}\t\u0003\u0002\u0002\u0002~\u0083\u0005\u0004\u0003",
-    "\u0002\u007f\u0080\u0007\t\u0002\u0002\u0080\u0082\u0005\u0004\u0003",
-    "\u0002\u0081\u007f\u0003\u0002\u0002\u0002\u0082\u0085\u0003\u0002\u0002",
-    "\u0002\u0083\u0081\u0003\u0002\u0002\u0002\u0083\u0084\u0003\u0002\u0002",
-    "\u0002\u0084\u000b\u0003\u0002\u0002\u0002\u0085\u0083\u0003\u0002\u0002",
-    "\u0002\u0007\u0018\u001a$|\u0083"].join("");
+    "\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005",
+    "\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005\u0003\u0005",
+    "\u0003\u0005\u0005\u0005\u0087\n\u0005\u0003\u0006\u0003\u0006\u0003",
+    "\u0006\u0007\u0006\u008c\n\u0006\f\u0006\u000e\u0006\u008f\u000b\u0006",
+    "\u0003\u0006\u0002\u0003\u0004\u0007\u0002\u0004\u0006\b\n\u0002\u0004",
+    "\u0003\u0002\u0003\u0004\u0003\u0002\u0005\u0006\u0002\u00a0\u0002\f",
+    "\u0003\u0002\u0002\u0002\u0004\u000f\u0003\u0002\u0002\u0002\u0006$",
+    "\u0003\u0002\u0002\u0002\b\u0086\u0003\u0002\u0002\u0002\n\u0088\u0003",
+    "\u0002\u0002\u0002\f\r\u0005\u0004\u0003\u0002\r\u000e\u0007\u0002\u0002",
+    "\u0003\u000e\u0003\u0003\u0002\u0002\u0002\u000f\u0010\b\u0003\u0001",
+    "\u0002\u0010\u0011\u0005\u0006\u0004\u0002\u0011\u001a\u0003\u0002\u0002",
+    "\u0002\u0012\u0013\f\u0004\u0002\u0002\u0013\u0014\t\u0002\u0002\u0002",
+    "\u0014\u0019\u0005\u0004\u0003\u0005\u0015\u0016\f\u0003\u0002\u0002",
+    "\u0016\u0017\t\u0003\u0002\u0002\u0017\u0019\u0005\u0004\u0003\u0004",
+    "\u0018\u0012\u0003\u0002\u0002\u0002\u0018\u0015\u0003\u0002\u0002\u0002",
+    "\u0019\u001c\u0003\u0002\u0002\u0002\u001a\u0018\u0003\u0002\u0002\u0002",
+    "\u001a\u001b\u0003\u0002\u0002\u0002\u001b\u0005\u0003\u0002\u0002\u0002",
+    "\u001c\u001a\u0003\u0002\u0002\u0002\u001d%\u0007\u001a\u0002\u0002",
+    "\u001e%\u0007\u001b\u0002\u0002\u001f%\u0005\b\u0005\u0002 !\u0007\u0007",
+    "\u0002\u0002!\"\u0005\u0004\u0003\u0002\"#\u0007\b\u0002\u0002#%\u0003",
+    "\u0002\u0002\u0002$\u001d\u0003\u0002\u0002\u0002$\u001e\u0003\u0002",
+    "\u0002\u0002$\u001f\u0003\u0002\u0002\u0002$ \u0003\u0002\u0002\u0002",
+    "%\u0007\u0003\u0002\u0002\u0002&\'\u0007\n\u0002\u0002\'(\u0007\u0007",
+    "\u0002\u0002()\u0005\u0004\u0003\u0002)*\u0007\b\u0002\u0002*\u0087",
+    "\u0003\u0002\u0002\u0002+,\u0007\u000b\u0002\u0002,-\u0007\u0007\u0002",
+    "\u0002-.\u0005\n\u0006\u0002./\u0007\b\u0002\u0002/\u0087\u0003\u0002",
+    "\u0002\u000201\u0007\f\u0002\u000212\u0007\u0007\u0002\u000223\u0005",
+    "\n\u0006\u000234\u0007\b\u0002\u00024\u0087\u0003\u0002\u0002\u0002",
+    "56\u0007\r\u0002\u000267\u0007\u0007\u0002\u000278\u0005\u0004\u0003",
+    "\u000289\u0007\t\u0002\u00029:\u0005\u0004\u0003\u0002:;\u0007\t\u0002",
+    "\u0002;<\u0005\u0004\u0003\u0002<=\u0007\b\u0002\u0002=\u0087\u0003",
+    "\u0002\u0002\u0002>?\u0007\u000e\u0002\u0002?@\u0007\u0007\u0002\u0002",
+    "@A\u0005\n\u0006\u0002AB\u0007\b\u0002\u0002B\u0087\u0003\u0002\u0002",
+    "\u0002CD\u0007\u000f\u0002\u0002DE\u0007\u0007\u0002\u0002EF\u0005\n",
+    "\u0006\u0002FG\u0007\b\u0002\u0002G\u0087\u0003\u0002\u0002\u0002HI",
+    "\u0007\u0010\u0002\u0002IJ\u0007\u0007\u0002\u0002JK\u0005\n\u0006\u0002",
+    "KL\u0007\b\u0002\u0002L\u0087\u0003\u0002\u0002\u0002MN\u0007\u0011",
+    "\u0002\u0002NO\u0007\u0007\u0002\u0002OP\u0005\u0004\u0003\u0002PQ\u0007",
+    "\t\u0002\u0002QR\u0005\u0004\u0003\u0002RS\u0007\t\u0002\u0002ST\u0005",
+    "\u0004\u0003\u0002TU\u0007\t\u0002\u0002UV\u0005\u0004\u0003\u0002V",
+    "W\u0007\b\u0002\u0002W\u0087\u0003\u0002\u0002\u0002XY\u0007\u0012\u0002",
+    "\u0002YZ\u0007\u0007\u0002\u0002Z[\u0005\u0004\u0003\u0002[\\\u0007",
+    "\t\u0002\u0002\\]\u0005\u0004\u0003\u0002]^\u0007\t\u0002\u0002^_\u0005",
+    "\u0004\u0003\u0002_`\u0007\b\u0002\u0002`\u0087\u0003\u0002\u0002\u0002",
+    "ab\u0007\u0013\u0002\u0002bc\u0007\u0007\u0002\u0002cd\u0005\u0004\u0003",
+    "\u0002de\u0007\t\u0002\u0002ef\u0005\u0004\u0003\u0002fg\u0007\t\u0002",
+    "\u0002gh\u0005\u0004\u0003\u0002hi\u0007\b\u0002\u0002i\u0087\u0003",
+    "\u0002\u0002\u0002jk\u0007\u0014\u0002\u0002kl\u0007\u0007\u0002\u0002",
+    "lm\u0005\n\u0006\u0002mn\u0007\b\u0002\u0002n\u0087\u0003\u0002\u0002",
+    "\u0002op\u0007\u0015\u0002\u0002pq\u0007\u0007\u0002\u0002qr\u0005\u0004",
+    "\u0003\u0002rs\u0007\t\u0002\u0002st\u0005\u0004\u0003\u0002tu\u0007",
+    "\b\u0002\u0002u\u0087\u0003\u0002\u0002\u0002vw\u0007\u0016\u0002\u0002",
+    "wx\u0007\u0007\u0002\u0002x\u0087\u0007\b\u0002\u0002yz\u0007\u0017",
+    "\u0002\u0002z{\u0007\u0007\u0002\u0002{\u0087\u0007\b\u0002\u0002|}",
+    "\u0007\u0018\u0002\u0002}~\u0007\u0007\u0002\u0002~\u007f\u0005\u0004",
+    "\u0003\u0002\u007f\u0080\u0007\b\u0002\u0002\u0080\u0087\u0003\u0002",
+    "\u0002\u0002\u0081\u0082\u0007\u0019\u0002\u0002\u0082\u0083\u0007\u0007",
+    "\u0002\u0002\u0083\u0084\u0005\u0004\u0003\u0002\u0084\u0085\u0007\b",
+    "\u0002\u0002\u0085\u0087\u0003\u0002\u0002\u0002\u0086&\u0003\u0002",
+    "\u0002\u0002\u0086+\u0003\u0002\u0002\u0002\u00860\u0003\u0002\u0002",
+    "\u0002\u00865\u0003\u0002\u0002\u0002\u0086>\u0003\u0002\u0002\u0002",
+    "\u0086C\u0003\u0002\u0002\u0002\u0086H\u0003\u0002\u0002\u0002\u0086",
+    "M\u0003\u0002\u0002\u0002\u0086X\u0003\u0002\u0002\u0002\u0086a\u0003",
+    "\u0002\u0002\u0002\u0086j\u0003\u0002\u0002\u0002\u0086o\u0003\u0002",
+    "\u0002\u0002\u0086v\u0003\u0002\u0002\u0002\u0086y\u0003\u0002\u0002",
+    "\u0002\u0086|\u0003\u0002\u0002\u0002\u0086\u0081\u0003\u0002\u0002",
+    "\u0002\u0087\t\u0003\u0002\u0002\u0002\u0088\u008d\u0005\u0004\u0003",
+    "\u0002\u0089\u008a\u0007\t\u0002\u0002\u008a\u008c\u0005\u0004\u0003",
+    "\u0002\u008b\u0089\u0003\u0002\u0002\u0002\u008c\u008f\u0003\u0002\u0002",
+    "\u0002\u008d\u008b\u0003\u0002\u0002\u0002\u008d\u008e\u0003\u0002\u0002",
+    "\u0002\u008e\u000b\u0003\u0002\u0002\u0002\u008f\u008d\u0003\u0002\u0002",
+    "\u0002\u0007\u0018\u001a$\u0086\u008d"].join("");
 
 
 const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
@@ -100,12 +110,12 @@ export default class ExcelFormulaParser extends antlr4.Parser {
                             "','", "'ABS'", "'AVERAGE'", "'COUNT'", "'IF'", 
                             "'MAX'", "'MIN'", "'SUM'", "'VLOOKUP'", "'INDEX'", 
                             "'MATCH'", "'CONCATENATE'", "'TEXT'", "'TODAY'", 
-                            "'NOW'" ];
+                            "'NOW'", "'LOG'", "'EXP'" ];
     static symbolicNames = [ null, null, null, null, null, null, null, null, 
                              "ABS", "AVERAGE", "COUNT", "IF", "MAX", "MIN", 
                              "SUM", "VLOOKUP", "INDEX", "MATCH", "CONCATENATE", 
-                             "TEXT", "TODAY", "NOW", "NUMBER", "CELL_REFERENCE", 
-                             "WS" ];
+                             "TEXT", "TODAY", "NOW", "LOG", "EXP", "NUMBER", 
+                             "CELL_REFERENCE", "WS" ];
     static ruleNames = [ "formula", "expression", "atom", "functionCall", 
                          "argumentList" ];
 
@@ -291,6 +301,8 @@ export default class ExcelFormulaParser extends antlr4.Parser {
 	        case ExcelFormulaParser.TEXT:
 	        case ExcelFormulaParser.TODAY:
 	        case ExcelFormulaParser.NOW:
+	        case ExcelFormulaParser.LOG:
+	        case ExcelFormulaParser.EXP:
 	            this.enterOuterAlt(localctx, 3);
 	            this.state = 29;
 	            this.functionCall();
@@ -327,7 +339,7 @@ export default class ExcelFormulaParser extends antlr4.Parser {
 	    let localctx = new FunctionCallContext(this, this._ctx, this.state);
 	    this.enterRule(localctx, 6, ExcelFormulaParser.RULE_functionCall);
 	    try {
-	        this.state = 122;
+	        this.state = 132;
 	        this._errHandler.sync(this);
 	        switch(this._input.LA(1)) {
 	        case ExcelFormulaParser.ABS:
@@ -520,6 +532,28 @@ export default class ExcelFormulaParser extends antlr4.Parser {
 	            this.state = 121;
 	            this.match(ExcelFormulaParser.T__5);
 	            break;
+	        case ExcelFormulaParser.LOG:
+	            this.enterOuterAlt(localctx, 15);
+	            this.state = 122;
+	            this.match(ExcelFormulaParser.LOG);
+	            this.state = 123;
+	            this.match(ExcelFormulaParser.T__4);
+	            this.state = 124;
+	            this.expression(0);
+	            this.state = 125;
+	            this.match(ExcelFormulaParser.T__5);
+	            break;
+	        case ExcelFormulaParser.EXP:
+	            this.enterOuterAlt(localctx, 16);
+	            this.state = 127;
+	            this.match(ExcelFormulaParser.EXP);
+	            this.state = 128;
+	            this.match(ExcelFormulaParser.T__4);
+	            this.state = 129;
+	            this.expression(0);
+	            this.state = 130;
+	            this.match(ExcelFormulaParser.T__5);
+	            break;
 	        default:
 	            throw new antlr4.error.NoViableAltException(this);
 	        }
@@ -545,17 +579,17 @@ export default class ExcelFormulaParser extends antlr4.Parser {
 	    var _la = 0; // Token type
 	    try {
 	        this.enterOuterAlt(localctx, 1);
-	        this.state = 124;
+	        this.state = 134;
 	        this.expression(0);
-	        this.state = 129;
+	        this.state = 139;
 	        this._errHandler.sync(this);
 	        _la = this._input.LA(1);
 	        while(_la===ExcelFormulaParser.T__6) {
-	            this.state = 125;
+	            this.state = 135;
 	            this.match(ExcelFormulaParser.T__6);
-	            this.state = 126;
+	            this.state = 136;
 	            this.expression(0);
-	            this.state = 131;
+	            this.state = 141;
 	            this._errHandler.sync(this);
 	            _la = this._input.LA(1);
 	        }
@@ -598,9 +632,11 @@ ExcelFormulaParser.CONCATENATE = 18;
 ExcelFormulaParser.TEXT = 19;
 ExcelFormulaParser.TODAY = 20;
 ExcelFormulaParser.NOW = 21;
-ExcelFormulaParser.NUMBER = 22;
-ExcelFormulaParser.CELL_REFERENCE = 23;
-ExcelFormulaParser.WS = 24;
+ExcelFormulaParser.LOG = 22;
+ExcelFormulaParser.EXP = 23;
+ExcelFormulaParser.NUMBER = 24;
+ExcelFormulaParser.CELL_REFERENCE = 25;
+ExcelFormulaParser.WS = 26;
 
 ExcelFormulaParser.RULE_formula = 0;
 ExcelFormulaParser.RULE_expression = 1;
@@ -787,6 +823,14 @@ class FunctionCallContext extends antlr4.ParserRuleContext {
 
 	NOW() {
 	    return this.getToken(ExcelFormulaParser.NOW, 0);
+	};
+
+	LOG() {
+	    return this.getToken(ExcelFormulaParser.LOG, 0);
+	};
+
+	EXP() {
+	    return this.getToken(ExcelFormulaParser.EXP, 0);
 	};
 
 

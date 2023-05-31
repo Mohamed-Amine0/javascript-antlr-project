@@ -19,6 +19,8 @@ CONCATENATE: 'CONCATENATE';
 TEXT: 'TEXT';
 TODAY: 'TODAY';
 NOW: 'NOW';
+LOG: 'LOG';
+EXP: 'EXP';
 
 // Rule for parsing a formula
 formula: expression EOF;
@@ -51,6 +53,8 @@ functionCall: ABS '(' expression ')'         // ABS: Returns the absolute value 
             | TEXT '(' expression ',' expression ')'  // TEXT: Formats a numeric value with a specified text format.
             | TODAY '(' ')'                  // TODAY: Returns the current date.
             | NOW '(' ')'                    // NOW: Returns the current date and time.
+            | LOG '(' expression ')'         // LOG: Returns the natural logarithm of a number.
+            | EXP '(' expression ')'         // EXP: Returns Euler's number raised to the power of a number.
             ;
 
 argumentList: expression (',' expression)*;
